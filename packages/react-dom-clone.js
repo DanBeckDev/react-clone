@@ -4,16 +4,6 @@ export function render(reactElement, domElement) {
   domElement.appendChild(mount(reactElement));
 }
 
-export function createElement(type, props, ...children) {
-  return {
-    type,
-    props: {
-      ...props,
-      children,
-    },
-  };
-}
-
 function mount(element) {
   const { type } = element;
   return typeof type === 'function' ? null : mountHost(element);
