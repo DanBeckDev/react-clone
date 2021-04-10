@@ -1,5 +1,6 @@
 import { render, createElement } from './react-clone.js';
 
-const heading = createElement('h1', {}, 'Hello World');
+const heading = createElement('h1', {}, 'Hello World2');
+const main = createElement('main', {}, heading);
 
-render(heading, document.getElementById('app'));
+render(main, document.getElementById('app'));
