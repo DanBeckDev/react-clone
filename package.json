@@ -1,0 +1,15 @@
+{
+  "name": "react-clone",
+  "version": "1.0.0",
+  "main": "index.jsx",
+  "repository": "https://github.com/DanBeckDev/react-clone.git",
+  "author": "Dan Beck <boreme12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d src"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0"
+  }
+}
